@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../../constants/colors.dart';
 import '../../../constants/sizes.dart';
 
-
 /* ----Light & Dark Elevated Button Themes---*/
 class TElevatedButtonTheme {
   TElevatedButtonTheme._();
@@ -16,7 +15,7 @@ class TElevatedButtonTheme {
       foregroundColor: tWhiteColor,
       backgroundColor: tSecondaryColor,
       side: BorderSide(color: tSecondaryColor),
-      padding: EdgeInsets.symmetric(vertical: tButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: TSizes.tButtonHeight),
     ),
   );
 
@@ -28,7 +27,7 @@ class TElevatedButtonTheme {
       foregroundColor: tSecondaryColor,
       backgroundColor: tWhiteColor,
       side: BorderSide(color: tWhiteColor),
-      padding: EdgeInsets.symmetric(vertical: tButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: TSizes.tButtonHeight),
     ),
   );
 }

@@ -1,16 +1,22 @@
 //App Text Strings
 
 // --Genric Text
-
+const String tfirstName = "First Name";
+const String tlastName = "Last Name";
 const String tLogin = "Login";
 const String tLoginContinue = "Login to Continue";
 const String tSignup = "Signup";
 const String tFullName = "Full Name";
 const String tEmail = "E-Mail";
 const String tNext = "Next";
-const String tPhoneNo = "Phone No";
+const String tusername = "Username";
+const String tPhoneNo = "Phone Number";
 const String tPassword = "Password";
+const String tNewPassword = " New Password";
+
 const String tForgetPassword = "Forgot Password";
+const String tSignIn = " Sign In";
+
 const String tSignInWithGoogle = "Sign-In with Google";
 
 const String tAppName = "ONYI DIET";
@@ -44,6 +50,15 @@ const String tDontHaveAnAccount = "Don't have an Account?";
 
 //---Sign Up Screen Text
 const String tSignUpTitle = "Get On Board";
+const String tCreateAccount = "Create Account";
+const String tOrSignInWith = "or sign in with";
+const String tOrSignUpWith = "or sign up with";
+const String tIAgreeTo = "I agree to";
+const String privacyPolicy = "Privacy Policy";
+const String termsOfUse = "Terms of use";
+const String resendEmail = "Resend Email";
+const String verificationCode = "Verification Code";
+const String resendEmailIn = "Resend email in";
 const String tSignUpSubTitle =
     "Create your profile to start your journey with us";
 const String tAlreadyHaveAnAccount = "Already have an Account?";

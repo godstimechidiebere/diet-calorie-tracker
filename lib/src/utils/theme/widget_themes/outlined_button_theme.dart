@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../../constants/colors.dart';
 import '../../../constants/sizes.dart';
 
-
 /* ----Light & Dark OutlinedButton Themes---*/
 class TOutlinedButtonTheme {
   TOutlinedButtonTheme._();
@@ -14,7 +13,7 @@ class TOutlinedButtonTheme {
       shape: RoundedRectangleBorder(),
       foregroundColor: tSecondaryColor,
       side: BorderSide(color: tSecondaryColor),
-      padding: EdgeInsets.symmetric(vertical: tButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: TSizes.tButtonHeight),
     ),
   );
 
@@ -24,7 +23,7 @@ class TOutlinedButtonTheme {
       shape: RoundedRectangleBorder(),
       foregroundColor: tWhiteColor,
       side: BorderSide(color: tWhiteColor),
-      padding: EdgeInsets.symmetric(vertical: tButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: TSizes.tButtonHeight),
     ),
   );
 }

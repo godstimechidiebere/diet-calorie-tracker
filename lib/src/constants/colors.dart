@@ -8,6 +8,8 @@ import 'package:google_fonts/google_fonts.dart';
 /* -----LIST OF COLORS ---*/
 
 const tPrimaryColor = Color(0xFFFFE400);
+const darkGrey = Colors.blueGrey;
+const grey = Colors.grey;
 const tSecondaryColor = Color(0xFF272727);
 const tAccentColor = Color(0xFF001BFF);
 

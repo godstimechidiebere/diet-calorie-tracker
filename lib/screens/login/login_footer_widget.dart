@@ -19,7 +19,7 @@ class LoginFooterWidget extends StatelessWidget {
           child: OutlinedButton.icon(
             onPressed: () {},
             icon: const Image(
-              image: AssetImage(tGoogleLogoImage),
+              image: AssetImage(TImages.tGoogleLogoImage),
               width: 20.0,
             ),
             label: const Text(
@@ -28,7 +28,7 @@ class LoginFooterWidget extends StatelessWidget {
           ),
         ),
         const SizedBox(
-          height: tFormHeight - 20,
+          height: TSizes.tFormHeight - 20,
         ),
         TextButton(
           onPressed: () {},

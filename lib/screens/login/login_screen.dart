@@ -16,11 +16,11 @@ class LoginScreen extends StatelessWidget {
       child: Scaffold(
         body: SingleChildScrollView(
           child: Container(
-            padding: const EdgeInsets.all(tDefaultSize),
+            padding: const EdgeInsets.all(TSizes.tDefaultSize),
             decoration: const BoxDecoration(
               image: DecorationImage(
                 fit: BoxFit.cover,
-                image: AssetImage(tLoginimg),
+                image: AssetImage(TImages.tLoginimg),
               ),
             ),
             child: Column(

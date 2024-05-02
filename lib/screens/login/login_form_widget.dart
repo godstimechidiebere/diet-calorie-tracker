@@ -1,6 +1,5 @@
 import 'package:dietonyi/src/constants/sizes.dart';
 import 'package:dietonyi/src/constants/text_strings.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LoginForm extends StatelessWidget {
@@ -13,7 +12,7 @@ class LoginForm extends StatelessWidget {
     return Form(
       child: Container(
         padding: const EdgeInsets.symmetric(
-          vertical: tFormHeight - 10,
+          vertical: TSizes.tFormHeight - 10,
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -26,7 +25,7 @@ class LoginForm extends StatelessWidget {
                 border: OutlineInputBorder(),
               ),
             ),
-            const SizedBox(height: tFormHeight - 20),
+            const SizedBox(height: TSizes.tFormHeight - 20),
             TextFormField(
               decoration: const InputDecoration(
                 prefixIcon: Icon(Icons.fingerprint),
@@ -39,7 +38,7 @@ class LoginForm extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: tFormHeight - 20),
+            const SizedBox(height: TSizes.tFormHeight - 20),
             Align(
               alignment: Alignment.centerRight,
               child: TextButton(
