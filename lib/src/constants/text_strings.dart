@@ -4,6 +4,8 @@
 const String tfirstName = "First Name";
 const String tlastName = "Last Name";
 const String tLogin = "Login";
+const String tPost = "We will never post anything without your permission.";
+const String tContinue = "Continue";
 const String tLoginContinue = "Login to Continue";
 const String tSignup = "Signup";
 const String tFullName = "Full Name";
@@ -50,6 +52,8 @@ const String tDontHaveAnAccount = "Don't have an Account?";
 
 //---Sign Up Screen Text
 const String tSignUpTitle = "Get On Board";
+const String tSignUpTitle1 = "Welcome! Let's customize";
+const String tSignUpTitle2 = "DietOnyi for your goals.";
 const String tCreateAccount = "Create Account";
 const String tOrSignInWith = "or sign in with";
 const String tOrSignUpWith = "or sign up with";
