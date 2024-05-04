@@ -84,6 +84,8 @@ flutter:
   assets:
     - assets/
     - assets/images/
+    - assets/images/splash_logo_img/
+    - assets/images/logo/
     - assets/images/on_boarding_images/
     - assets/images/welcome_images/
     - assets/images/image1.jpg
