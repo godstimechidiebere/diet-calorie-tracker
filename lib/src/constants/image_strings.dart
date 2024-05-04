@@ -27,4 +27,10 @@ class TImages {
       "assets/images/forget_password/forget-password.png";
 
   static const String tLoginimg = "assets/images/bglogin.png";
+
+  static const String tStaticSuccessIllustration =
+      "assets/images/sammy-line-success.png";
+
+  static const String tDeliveredEmailIllustration =
+      "assets/images/sammy-line-man-receives-a-mail.png";
 }
