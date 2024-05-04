@@ -5,9 +5,7 @@ import 'package:dietonyi/src/constants/text_strings.dart';
 import 'package:dietonyi/styles/spacing_styles.dart';
 import 'package:dietonyi/widgets/login_signup/form_divider.dart';
 import 'package:dietonyi/widgets/login_signup/social_buttons.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -22,17 +20,17 @@ class LoginScreen extends StatelessWidget {
           child: Column(
             children: [
               ///Logo, Title & Sub-Title
-              TLoginHeader(),
+              const TLoginHeader(),
 
               ///Form
-              TLoginForm(),
+              const TLoginForm(),
 
               ///Divider
               TFormDivider(dividerText: tOrSignInWith.capitalize!),
               const SizedBox(height: TSizes.spaceBtwSections),
 
               ///Footer
-              TSocialButtons(),
+              const TSocialButtons(),
             ],
           ),
         ),
