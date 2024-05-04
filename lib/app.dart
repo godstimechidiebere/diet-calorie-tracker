@@ -1,3 +1,4 @@
+import 'package:dietonyi/screens/login/login.dart';
 import 'package:dietonyi/screens/onboarding/onboarding.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: OnboardingScreen() //GettingStartedScreen(),
+        home: const OnboardingScreen() //GettingStartedScreen(),
         );
   }
 }
