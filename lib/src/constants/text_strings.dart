@@ -60,9 +60,17 @@ const String tOrSignUpWith = "or sign up with";
 const String tIAgreeTo = "I agree to";
 const String privacyPolicy = "Privacy Policy";
 const String termsOfUse = "Terms of use";
-const String resendEmail = "Resend Email";
+const String tResendEmail = "Resend Email";
 const String verificationCode = "Verification Code";
 const String resendEmailIn = "Resend email in";
+const String tConfirmEmail = "Verify your E-Mail address";
+const String tConfirmEmailSubTitle =
+    "Congratulations! Your account Awaits: Verify your Email to your journey with us.";
+
+const String tYourAccountCreatedTitle = "Your account succesfully created";
+const String tYourAccountCreatedSubTitle =
+    "Your account has been created successfully. Now bring your hopes to reality with seamless routine of healthy diet.";
+
 const String tSignUpSubTitle =
     "Create your profile to start your journey with us";
 const String tAlreadyHaveAnAccount = "Already have an Account?";
