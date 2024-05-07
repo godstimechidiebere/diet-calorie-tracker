@@ -21,7 +21,8 @@ class SignupScreen extends StatelessWidget {
         ),
         body: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.all(TSizes.spaceBtwSections * 3),
+            padding: const EdgeInsets.symmetric(
+                vertical: TSizes.spaceBtwSections * 3),
             child: Column(
               children: [
                 ///Title

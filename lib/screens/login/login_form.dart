@@ -1,3 +1,4 @@
+import 'package:dietonyi/screens/password_configuration/forget_password.dart';
 import 'package:dietonyi/screens/signup/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:dietonyi/src/constants/sizes.dart';
@@ -52,7 +53,7 @@ class TLoginForm extends StatelessWidget {
 
                 ///Forget Password
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const ForgetPassword()),
                   child: const Text(tForgetPassword),
                 ),
               ],

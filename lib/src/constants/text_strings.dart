@@ -17,7 +17,16 @@ const String tPassword = "Password";
 const String tNewPassword = " New Password";
 
 const String tForgetPassword = "Forgot Password";
+const String tForgetPassSubTitle =
+    "Don't worry. Enter your email and we will send you a password reset link ";
 const String tSignIn = " Sign In";
+const String tSubmit = "Submit";
+
+const String tDone = "Done";
+
+const String tChangeYourPassword = "Password Reset Email Sent";
+const String tChangeYourPasswordSubtitle =
+    "Your Account Security is our priority!! We've sent You a secure link to safely change your password and keep Your Account protected ";
 
 const String tSignInWithGoogle = "Sign-In with Google";
 
